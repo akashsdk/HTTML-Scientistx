@@ -11,3 +11,25 @@
     width: 40%;
     margin-left: 5%;
 }
+.txtb{
+    background-color: black;
+    height: 3px;
+    width: 164px;
+    margin-left: 30%;
+}
+.txtc{
+    margin-top: 10px;
+    margin-left:30%;
+}
+.txtd{
+    background-color: rgb(255, 255, 255);
+    height: 200px; 
+    width: 200px;
+    margin-left: 25%;
+    margin-top: 30%;
+    border-radius: 100px;
+}
+.bt{
+    height: 20px;
+    width: 40px;
+}
