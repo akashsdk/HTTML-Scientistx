@@ -29,6 +29,12 @@
     margin-top: 30%;
     border-radius: 100px;
 }
+.txte{
+    background-color: rgb(255, 238, 0);
+    height: 500px; 
+    width: 100%;
+    clip-path: polygon(100% 0%,0% 0%,50% 50%,100% 100%);
+}
 .bt{
     height: 20px;
     width: 40px;
