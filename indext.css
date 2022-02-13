@@ -38,7 +38,7 @@
 .txtf{
     height: 400px;
     width: 100%;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
 }
 .bt{
     height: 20px;
@@ -51,4 +51,5 @@
     height: 400px;
     width: 100%;
     background-color: rgb(55, 0, 255);
+    clip-path: ellipse(51.2% 120% at 50.1% 127%);
 }
