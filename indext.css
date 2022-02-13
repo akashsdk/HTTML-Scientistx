@@ -2,14 +2,16 @@
     background-color: antiquewhite;
     color: rgb(250, 4, 4);
     height: 500px; 
-    width: 40%;
+    width: 500px;
     margin-left: 5%;
+    margin-top: 10px;
 }
 .txta{
     background-color: rgb(255, 238, 0);
     height: 500px; 
-    width: 40%;
+    width: 500px;
     margin-left: 5%;
+    margin-top: 10px;
 }
 .txtb{
     background-color: black;
