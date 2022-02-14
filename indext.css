@@ -130,3 +130,8 @@
     from {left: 0px;}
     to {left: 300px;}
   }
+  .divha{
+      height: 80px;
+      width: 100%;
+      background-color: aqua;
+  }
