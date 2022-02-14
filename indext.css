@@ -141,3 +141,15 @@
       margin-top: 7px;
       margin-left: 10%;
   }
+  .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 1px;
+  }
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
