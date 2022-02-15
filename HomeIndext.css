@@ -1,0 +1,51 @@
+.divha {
+    height          : 80px;
+    width           : 100%;
+    background-color: aqua;
+    display         : flex;
+    box-shadow      : 10px 10px 5px lightblue;
+}
+
+.imgha {
+    height     : 70px;
+    width      : 50px;
+    margin-top : 7px;
+    margin-left: 10%;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border          : none;
+    color           : white;
+    padding         : 10px 14px;
+    font-size       : 16px;
+    cursor          : pointer;
+    height          : 50px;
+    margin          : 13px;
+}
+
+.btn:hover {
+    background-color: rgb(225, 65, 204);
+}
+
+.divtext {
+    margin-top : 100px;
+    margin-left: 40%;
+}
+
+.divh {
+    height          : 150px;
+    width           : 150px;
+    background-color: #000000;
+    margin          : 50px;
+}
+
+@media screen and (max-width: 992px) {
+    .divh {
+        height          : 200px;
+        width           : 200px;
+        margin          : 200px;
+        background-color: aqua;
+        
+    }
+}

@@ -206,12 +206,12 @@
     margin          : 50px;
 }
 
-@keyframes divh {
-    from {
-        background-color: #000000;
-    }
-
-    to {
+@media screen and (max-width: 992px) {
+    .divh {
+        height          : 200px;
+        width           : 200px;
+        margin          : 200px;
         background-color: aqua;
+        
     }
 }
