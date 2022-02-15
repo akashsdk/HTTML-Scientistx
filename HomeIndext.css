@@ -153,3 +153,18 @@ body {
         right    : 35px;
     }
 }
+
+.c{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 80%;
+}
+.d{
+    margin-left: 110px;
+}
+.e{
+    height: auto;
+    width: auto;
+    margin-left: 100px;
+}
