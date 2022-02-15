@@ -5,11 +5,12 @@
     display         : flex;
     box-shadow      : 10px 10px 5px lightblue;
 }
-.divhaa{
+
+.divhaa {
     height          : 580px;
     width           : 100%;
     background-color: rgb(167, 244, 247);
-    display: block;
+    display         : grid;
 }
 
 .imgha {
@@ -17,6 +18,12 @@
     width      : 50px;
     margin-top : 7px;
     margin-left: 10%;
+}
+.imghaa{
+    height     : 70px;
+    width      : 50px;
+    margin-top : 7px;
+    margin-left     : 250px;
 }
 
 .btn {
@@ -28,6 +35,19 @@
     cursor          : pointer;
     height          : 50px;
     margin          : 13px;
+}
+
+.btna {
+    background-color: DodgerBlue;
+    border          : none;
+    color           : white;
+    padding         : 10px 14px;
+    font-size       : 16px;
+    cursor          : pointer;
+    height          : 50px;
+    width           : 100px;
+    margin          : 13px;
+    margin-left     : 250px;
 }
 
 .btn:hover {
@@ -91,17 +111,18 @@ body {
     right    : 45px;
     font-size: 60px;
 }
-.divaa{
-    font-size:30px;
-    cursor:pointer;
+
+.divaa {
+    font-size  : 30px;
+    cursor     : pointer;
     margin-left: 50%;
-    margin-top: 10px;
+    margin-top : 10px;
 }
 
 @media screen and (min-width: 992px) {
-    .divaa{
-        font-size:30px;
-        cursor:pointer;
+    .divaa {
+        font-size : 30px;
+        cursor    : pointer;
         margin-top: 10px;
     }
 }
@@ -116,8 +137,9 @@ body {
         top      : 15px;
         right    : 35px;
     }
-    .divha{
+
+    .divha {
         display: none;
     }
-    
+
 }
