@@ -1,168 +1,217 @@
-.txt{
+.txt {
     background-color: antiquewhite;
-    color: rgb(250, 4, 4);
-    height: 500px; 
-    width: 500px;
-    margin-left: 5%;
-    margin-top: 10px;
+    color           : rgb(250, 4, 4);
+    height          : 500px;
+    width           : 500px;
+    margin-left     : 5%;
+    margin-top      : 10px;
 }
-.txta{
+
+.txta {
     background-color: rgb(255, 238, 0);
-    height: 500px; 
-    width: 500px;
-    margin-left: 5%;
-    margin-top: 10px;
+    height          : 500px;
+    width           : 500px;
+    margin-left     : 5%;
+    margin-top      : 10px;
 }
-.txtb{
+
+.txtb {
     background-color: black;
-    height: 3px;
-    width: 164px;
+    height          : 3px;
+    width           : 164px;
+    margin-left     : 30%;
+}
+
+.txtc {
+    margin-top : 10px;
     margin-left: 30%;
 }
-.txtc{
-    margin-top: 10px;
-    margin-left:30%;
-}
-.txtd{
+
+.txtd {
     background-color: rgb(255, 255, 255);
-    height: 200px; 
-    width: 200px;
-    margin-left: 25%;
-    margin-top: 30%;
-    border-radius: 100px;
-    
+    height          : 200px;
+    width           : 200px;
+    margin-left     : 25%;
+    margin-top      : 30%;
+    border-radius   : 100px;
+
 }
-.txte{
+
+.txte {
     background-color: rgb(0, 255, 13);
-    height: 500px; 
-    width: 100%;
-    clip-path: polygon(0% 100%,100% 0%,100% 100%,100% 100%);
+    height          : 500px;
+    width           : 100%;
+    clip-path       : polygon(0% 100%, 100% 0%, 100% 100%, 100% 100%);
 }
-.txtf{
-    height: 400px;
-    width: 100%;
+
+.txtf {
+    height          : 400px;
+    width           : 100%;
     background-color: rgb(255, 255, 255);
 }
-.bt{
+
+.bt {
     height: 20px;
-    width: 40px;
+    width : 40px;
 }
-.txtg{
-    font-size: larger;
-    color: rgb(0, 255, 13);
+
+.txtg {
+    font-size  : larger;
+    color      : rgb(0, 255, 13);
     text-shadow: 2px 2px 4px #000000;
 }
-.txth{
-    height: 400px;
-    width: 100%;
+
+.txth {
+    height          : 400px;
+    width           : 100%;
     background-color: rgb(55, 0, 255);
-    clip-path: ellipse(51.2% 120% at 50.1% 127%);
+    clip-path       : ellipse(51.2% 120% at 50.1% 127%);
 }
-.diva{
-    height: 50px;
-    width: 50px;
+
+.diva {
+    height     : 50px;
+    width      : 50px;
     margin-left: 35%;
-    margin-top: 10px;
-    display: flex;
+    margin-top : 10px;
+    display    : flex;
 }
-.divb{
-    
-    padding: 15px;
+
+.divb {
+
+    padding   : 15px;
     text-align: center;
 }
-.divc{
+
+.divc {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+    float : left;
+    width : 180px;
 }
-.divd{
-    width: 100%;
+
+.divd {
+    width : 100%;
     height: auto;
 }
-.dive{
-    height: 400px;
-    width: 400px;
-    margin: 200px;
+
+.dive {
+    height          : 400px;
+    width           : 400px;
+    margin          : 200px;
     background-color: rgb(55, 0, 255);
-    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
-    transition: width 5s;
-    
+    clip-path       : polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    transition      : width 5s;
+
 }
+
 @media screen and (max-width: 992px) {
-    .dive{
-        height: 200px;
-        width: 200px;
-        margin: 200px;
+    .dive {
+        height          : 200px;
+        width           : 200px;
+        margin          : 200px;
         background-image: linear-gradient(red, yellow);
-        clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+        clip-path       : polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
     }
-  }
-  .dive:hover {
-        height: 400px;
-        width: 400px;
-        margin: 200px;
-        background-color: rgb(78, 230, 7);
-        clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
-  }
-  @keyframes example1 {
-    from {background-color: red;}
-    to {background-color: yellow;}
-  }
-  .divf{
-      height: 200px;
-      width: 200px;
-      animation-name: example1;
-      animation-duration: 4s;
-      background-color: rgb(255, 0, 0);
-      animation-iteration-count: infinite;
-  }
-  .divg{
-    width: 100px;
-    height: 50px;
+}
+
+.dive:hover {
+    height          : 400px;
+    width           : 400px;
+    margin          : 200px;
+    background-color: rgb(78, 230, 7);
+    clip-path       : polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+
+@keyframes example1 {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+.divf {
+    height                   : 200px;
+    width                    : 200px;
+    animation-name           : example1;
+    animation-duration       : 4s;
+    background-color         : rgb(255, 0, 0);
+    animation-iteration-count: infinite;
+}
+
+.divg {
+    width           : 100px;
+    height          : 50px;
     background-color: red;
-    font-weight: bold;
-    position: relative;
-    animation: mymove 5s infinite;
-  }
-  #divg {animation-timing-function: linear;}
-  @keyframes mymove {
-    from {left: 0px;}
-    to {left: 300px;}
-  }
-  .divha{
-      height: 80px;
-      width: 100%;
-      background-color: aqua;
-      display: flex;
-      box-shadow: 10px 10px 5px lightblue;
-  }
-  .imgha{
-      height: 70px;
-      width: 50px;
-      margin-top: 7px;
-      margin-left: 10%;
-  }
-  .btn {
+    font-weight     : bold;
+    position        : relative;
+    animation       : mymove 5s infinite;
+}
+
+#divg {
+    animation-timing-function: linear;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 300px;
+    }
+}
+
+.divha {
+    height          : 80px;
+    width           : 100%;
+    background-color: aqua;
+    display         : flex;
+    box-shadow      : 10px 10px 5px lightblue;
+}
+
+.imgha {
+    height     : 70px;
+    width      : 50px;
+    margin-top : 7px;
+    margin-left: 10%;
+}
+
+.btn {
     background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 10px 14px;
-    font-size: 16px;
-    cursor: pointer;
-    height: 50px;
-    margin: 13px;
-  }
-  .btn:hover {
+    border          : none;
+    color           : white;
+    padding         : 10px 14px;
+    font-size       : 16px;
+    cursor          : pointer;
+    height          : 50px;
+    margin          : 13px;
+}
+
+.btn:hover {
     background-color: rgb(225, 65, 204);
-  }
-  .divtext{
-     margin-top: 100px;
-     margin-left: 40%;
-  }
-  .divh{
-      height: 150px;
-      width: 150px;
-      background-color: #000000;
-      margin: 50px;
-  }
+}
+
+.divtext {
+    margin-top : 100px;
+    margin-left: 40%;
+}
+
+.divh {
+    height          : 150px;
+    width           : 150px;
+    background-color: #000000;
+    margin          : 50px;
+}
+
+@keyframes divh {
+    from {
+        background-color: #000000;
+    }
+
+    to {
+        background-color: aqua;
+    }
+}
