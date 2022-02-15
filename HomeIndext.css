@@ -19,11 +19,12 @@
     margin-top : 7px;
     margin-left: 10%;
 }
-.imghaa{
+
+.imghaa {
     height     : 70px;
     width      : 50px;
     margin-top : 7px;
-    margin-left     : 250px;
+    margin-left: 250px;
 }
 
 .btn {
@@ -46,8 +47,7 @@
     cursor          : pointer;
     height          : 50px;
     width           : 100px;
-    margin          : 13px;
-    margin-left     : 250px;
+    margin-left     : 50px;
 }
 
 .btn:hover {
@@ -76,7 +76,7 @@ body {
     position        : fixed;
     z-index         : 1;
     top             : 0;
-    left            : 0;
+    right           : 0%;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.9);
     overflow-x      : hidden;
@@ -126,6 +126,21 @@ body {
         margin-top: 10px;
     }
 }
+.a{
+    background-color: aqua;
+    display: flex;
+}
+@media screen and (max-width: 1000px) {
+    .a {
+      display: none;
+    }
+  }
+.b{
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 60%;
+}
 
 @media screen and (max-height: 450px) {
     .overlay a {
@@ -137,9 +152,4 @@ body {
         top      : 15px;
         right    : 35px;
     }
-
-    .divha {
-        display: none;
-    }
-
 }
