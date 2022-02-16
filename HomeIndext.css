@@ -233,17 +233,37 @@ body {
     margin : 1px;
 }
 
-.lbtnaa {
-
+.lbtnaa1 {
     border          : none;
-    font-size       : 50px;
-    margin-left     : 57px;
-    width           : 50px;
+    font-size       : 31px;
     cursor          : pointer;
+    margin          : 5px;
     background-color: #818181;
+    margin-left: 55px;
 }
-.lbtnaa:hover {
-    background-color: #dddada;
+.lbtnaa1:hover {
+    background-color: #b1adad;
+    border          : none;
+    font-size       : 31px;
+    cursor          : pointer;
+    margin          : 5px;
+    margin-left: 55px;
+}
+.lbtnaa2 {
+    border          : none;
+    font-size       : 31px;
+    cursor          : pointer;
+    margin          : 5px;
+    background-color: #818181;
+    margin-left: 5px;
+}
+.lbtnaa2:hover {
+    background-color: #b1adad;
+    border          : none;
+    font-size       : 31px;
+    cursor          : pointer;
+    margin          : 5px;
+    margin-left: 5px;
 }
 .a1{
     height: 30px;
