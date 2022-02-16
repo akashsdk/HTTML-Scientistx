@@ -8,18 +8,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="./HomeIndext.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
     <div class="divha">
         <img src="Image\Logo.png" alt="Profile photo" class="imgha">
         <div class="a">
-            <button class="btn" type="button" onclick="document.getElementById('demo').style.display='block'">
+            <button class="btn" type="button" onclick="home()">
                 <i class="fa fa-home"></i> Home</button>
-            <button class="btn" type="button" onclick="document.getElementById('demoa').style.display='block'">
+            <button class="btn" type="button" onclick="profile()">
                 <i class="fa fa-user"></i> Profile</button>
-            <button class="btn" type="button" onclick="document.getElementById('demob').style.display='block'">
+            <button class="btn" type="button" onclick="notification()">
                 <i class="fa fa-bell"></i> Notification</button>
+
         </div>
 
 
@@ -39,6 +41,23 @@
 
 
             <script>
+                function home() {
+                    document.getElementById("home").style.display = "block";
+                    document.getElementById("profile").style.display = "none";
+                    document.getElementById("notification").style.display = "none";
+                }
+                function profile() {
+                    document.getElementById("home").style.display = "none";
+                    document.getElementById("profile").style.display = "block";
+                    document.getElementById("notification").style.display = "none";
+                }
+
+                function notification() {
+                    document.getElementById("home").style.display = "none";
+                    document.getElementById("profile").style.display = "none";
+                    document.getElementById("notification").style.display = "block";
+                }
+
                 function openNav() {
                     document.getElementById("myNav").style.width = "50%";
                 }
@@ -50,7 +69,7 @@
         </div>
 
     </div>
-    <div class="divtext" id="demo">
+    <div class="divtext" id="home">
         <form action="/action_page.php">
             <label for="fname">Email:</label>
             <input type="text" id="fname" name="fname"><br><br>
@@ -59,11 +78,13 @@
             <input type="submit" value="Submit">
         </form>
     </div>
-    <div class="e" id="demoa">
-        <div class="c"></div>
-        <h1 class="d">Name</h1>
+
+    <div class="e" id="profile">
+            <img src="Image\akash.jpeg" alt="Profile photo" class="c">
+        <h1 class="d">Tasnim Shahriar Akash</h1>
     </div>
-    <div class="d1" id="demob">
+
+    <div class="d1" id="notification">
         <h1 style="margin-top: 50px;">Notification</h1>
         <div class="e1"></div>
     </div>

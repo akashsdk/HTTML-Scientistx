@@ -57,7 +57,7 @@
 .divtext {
     margin-top : 100px;
     margin-left: 40%;
-    display: none;
+    
 }
 
 .divh {
@@ -162,12 +162,13 @@ body {
     border-radius: 80%;
 }
 .d{
-    margin-left: 110px;
+    color: aqua;
 }
 .e{
     height: auto;
     width: auto;
-    margin-left: 100px;
+    margin-left: 40%;
+    margin-top: 100px;
     display: none;
 }
 .d1{
@@ -181,3 +182,4 @@ body {
     margin-top: 0px;
     background-color: #000000;
 }
+
