@@ -57,7 +57,7 @@
 .divtext {
     margin-top : 100px;
     margin-left: 40%;
-    
+
 }
 
 .divh {
@@ -127,19 +127,22 @@ body {
         margin-top: 10px;
     }
 }
-.a{
+
+.a {
     background-color: aqua;
-    display: flex;
+    display         : flex;
 }
+
 @media screen and (max-width: 1000px) {
     .a {
-      display: none;
+        display: none;
     }
-  }
-.b{
-    height: 20px;
-    width: 20px;
-    margin-top: 15px;
+}
+
+.b {
+    height     : 20px;
+    width      : 20px;
+    margin-top : 15px;
     margin-left: 60%;
 }
 
@@ -155,31 +158,102 @@ body {
     }
 }
 
-.c{
-    height: 300px;
-    width: 300px;
+.c {
+    height          : 300px;
+    width           : 300px;
     background-color: aqua;
-    border-radius: 80%;
+    border-radius   : 80%;
 }
-.d{
+
+.d {
     color: aqua;
 }
-.e{
-    height: auto;
-    width: auto;
+
+.e {
+    height     : auto;
+    width      : auto;
     margin-left: 40%;
-    margin-top: 100px;
+    margin-top : 100px;
+    display    : none;
+}
+
+.d1 {
+    height : auto;
+    width  : auto;
     display: none;
 }
-.d1{
-    height: auto;
-    width: auto;
-    display: none;
-}
-.e1{
-    height: 5px;
-    width: 180px;
-    margin-top: 0px;
+
+.e1 {
+    height          : 5px;
+    width           : 180px;
+    margin-top      : 0px;
     background-color: #000000;
 }
 
+.la {
+    height          : 50px;
+    width           : 100%;
+    background-color: #818181;
+    margin-top      : 250px;
+    display         : flex;
+}
+
+.lbtn {
+
+    border          : none;
+    font-size       : 31px;
+    cursor          : pointer;
+    margin          : 5px;
+    background-color: #818181;
+}
+
+.lbtn:hover {
+    background-color: rgb(65, 225, 78);
+    border-radius   : 50px;
+}
+
+.lbtna {
+
+    border          : 2px;
+    font-size       : 26px;
+    cursor          : pointer;
+    background-color: #fffefe;
+    border-radius   : 40px;
+}
+
+.lbtna:hover {
+    background-color: rgb(19, 219, 226);
+    border-radius   : 40px;
+}
+
+.ldiv {
+    height : 48px;
+    width  : 150px;
+    display: flex;
+    margin : 1px;
+}
+
+.lbtnaa {
+
+    border          : none;
+    font-size       : 50px;
+    margin-left     : 57px;
+    width           : 50px;
+    cursor          : pointer;
+    background-color: #818181;
+}
+.lbtnaa:hover {
+    background-color: #dddada;
+}
+.a1{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: #dddada;
+}
+.a2{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #000000;
+}
