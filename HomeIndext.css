@@ -266,10 +266,20 @@ body {
     margin-left: 5px;
 }
 .a1{
-    height: 30px;
-    width: 30px;
-    border-radius: 20px;
-    background-color: #dddada;
+    border          : none;
+    font-size       : 20px;
+    cursor          : pointer;
+    margin          : 5px;
+    background-color: #818181;
+    margin-left: 5px;
+}
+.a1:hover{
+    border          : none;
+    font-size       : 20px;
+    cursor          : pointer;
+    margin          : 5px;
+    background-color: #b1adad;
+    margin-left: 5px;
 }
 .a2{
     height: 20px;
@@ -277,3 +287,4 @@ body {
     border-radius: 10px;
     background-color: #000000;
 }
+
