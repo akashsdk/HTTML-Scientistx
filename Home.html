@@ -90,7 +90,10 @@
     </div>
 
     <div class="la">
-        <button class="lbtn"><i class="fa fa-television" style="font-size: 30px; margin: 5px;"></i></button>
+        <div id="maina">
+            <span style="font-size:30px;cursor:pointer" onclick="openNava()">&#9776;</span>
+        </div>
+        
         <div class="ldiv">
             <input type="text" placeholder="Search.." name="search">
             <button type="submit" class="lbtna"><i class="fa fa-search"></i></button>
@@ -101,12 +104,12 @@
         <button class="lbtnaa2"><i class="fa fa-volume-up" style="font-size: 30px; margin: 5px;"></i></button>
         <button class="a1">ENG</button>
         <script>
-             fetch('http://192.168.0.105:4000/').then(res=>{
-                    res.json().then(doc=>{
-                        console.log(doc);
+            fetch('http://192.168.0.105:4000/').then(res => {
+                res.json().then(doc => {
+                    console.log(doc);
 
-                    })
                 })
+            })
 
             function display_ct5() {
                 var x = new Date()
@@ -129,8 +132,37 @@
 
 
     </div>
+
+    
+
+    <div id="mySidenava" class="sidenava">
+        <a href="javascript:void(0)" class="closebtna" onclick="closeNava()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <script>
+        function openNava() {
+            document.getElementById("mySidenava").style.width = "550px";
+            document.getElementById("mySidenava").style.height = "550px";
+            document.getElementById("mySidenava").style.marginTop = "50px";
+            document.getElementById("maina").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNava() {
+            document.getElementById("mySidenava").style.width = "0";
+            document.getElementById("maina").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+
+
     <h2>Sidebar with Icons</h2>
     <p>This side navigation is of full height (100%) and always shown.</p>
+    <button class="lbtn"><i class="fa fa-television" style="font-size: 30px; margin: 5px;"></i></button>
 
 </body>
 
